@@ -1,0 +1,12 @@
+- src: https://github.com/kaneproject/ansible-tomcat.git
+  name: curso.tomcat
+  scm: git
+  version: 1.0.0
+- src: https://github.com/kaneproject/ansible-httpd.git
+  name: curso.httpd
+  scm: git
+  version: 1.0.0
+- src: https://github.com/kaneproject/ansible-mariadb.git
+  name: curso.mariadb
+  scm: git
+  version: 1.0.0

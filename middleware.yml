@@ -1,0 +1,5 @@
+- name: Play middleware
+  hosts: middleware
+  become: yes
+  roles:
+    - curso.tomcat

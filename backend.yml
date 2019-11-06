@@ -1,0 +1,5 @@
+- name: El backend que faltaba
+  hosts: backend
+  become: yes
+  roles:
+    - curso.mariadb

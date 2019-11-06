@@ -1,0 +1,6 @@
+- name: Configuracion de frontend
+  hosts: frontend
+  gather_facts: yes #Si queremos o no que pinte los facts ( en la mayoria de casos, si)
+  become: yes #Permisos de root a todas las tareas del playbook
+  roles:
+    - curso.httpd

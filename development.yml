@@ -1,0 +1,15 @@
+---
+- name: Instalar plataforma de desarrollo
+  hosts: windowses
+  tasks:
+    - name: instalar sofeware
+      win_chocolatey:
+        name: "{{ item }}"
+        state: present
+      loop:
+        - eclipse
+        - git
+        - googlechrome
+        - vscode
+        - javaruntime
+        - steam
